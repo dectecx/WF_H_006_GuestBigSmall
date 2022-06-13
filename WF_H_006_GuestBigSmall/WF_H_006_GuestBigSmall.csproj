@@ -80,60 +80,168 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="pukeImage\1 %281%29.jpg" />
-    <Content Include="pukeImage\1 %2810%29.jpg" />
-    <Content Include="pukeImage\1 %2811%29.jpg" />
-    <Content Include="pukeImage\1 %2812%29.jpg" />
-    <Content Include="pukeImage\1 %2813%29.jpg" />
-    <Content Include="pukeImage\1 %2814%29.jpg" />
-    <Content Include="pukeImage\1 %2815%29.jpg" />
-    <Content Include="pukeImage\1 %2816%29.jpg" />
-    <Content Include="pukeImage\1 %2817%29.jpg" />
-    <Content Include="pukeImage\1 %2818%29.jpg" />
-    <Content Include="pukeImage\1 %2819%29.jpg" />
-    <Content Include="pukeImage\1 %282%29.jpg" />
-    <Content Include="pukeImage\1 %2820%29.jpg" />
-    <Content Include="pukeImage\1 %2821%29.jpg" />
-    <Content Include="pukeImage\1 %2822%29.jpg" />
-    <Content Include="pukeImage\1 %2823%29.jpg" />
-    <Content Include="pukeImage\1 %2824%29.jpg" />
-    <Content Include="pukeImage\1 %2825%29.jpg" />
-    <Content Include="pukeImage\1 %2826%29.jpg" />
-    <Content Include="pukeImage\1 %2827%29.jpg" />
-    <Content Include="pukeImage\1 %2828%29.jpg" />
-    <Content Include="pukeImage\1 %2829%29.jpg" />
-    <Content Include="pukeImage\1 %283%29.jpg" />
-    <Content Include="pukeImage\1 %2830%29.jpg" />
-    <Content Include="pukeImage\1 %2831%29.jpg" />
-    <Content Include="pukeImage\1 %2832%29.jpg" />
-    <Content Include="pukeImage\1 %2833%29.jpg" />
-    <Content Include="pukeImage\1 %2834%29.jpg" />
-    <Content Include="pukeImage\1 %2835%29.jpg" />
-    <Content Include="pukeImage\1 %2836%29.jpg" />
-    <Content Include="pukeImage\1 %2837%29.jpg" />
-    <Content Include="pukeImage\1 %2838%29.jpg" />
-    <Content Include="pukeImage\1 %2839%29.jpg" />
-    <Content Include="pukeImage\1 %284%29.jpg" />
-    <Content Include="pukeImage\1 %2840%29.jpg" />
-    <Content Include="pukeImage\1 %2841%29.jpg" />
-    <Content Include="pukeImage\1 %2842%29.jpg" />
-    <Content Include="pukeImage\1 %2843%29.jpg" />
-    <Content Include="pukeImage\1 %2844%29.jpg" />
-    <Content Include="pukeImage\1 %2845%29.jpg" />
-    <Content Include="pukeImage\1 %2846%29.jpg" />
-    <Content Include="pukeImage\1 %2847%29.jpg" />
-    <Content Include="pukeImage\1 %2848%29.jpg" />
-    <Content Include="pukeImage\1 %2849%29.jpg" />
-    <Content Include="pukeImage\1 %285%29.jpg" />
-    <Content Include="pukeImage\1 %2850%29.jpg" />
-    <Content Include="pukeImage\1 %2851%29.jpg" />
-    <Content Include="pukeImage\1 %2852%29.jpg" />
-    <Content Include="pukeImage\1 %2853%29.jpg" />
-    <Content Include="pukeImage\1 %2854%29.jpg" />
-    <Content Include="pukeImage\1 %286%29.jpg" />
-    <Content Include="pukeImage\1 %287%29.jpg" />
-    <Content Include="pukeImage\1 %288%29.jpg" />
-    <Content Include="pukeImage\1 %289%29.jpg" />
+    <Content Include="pukeImage\0.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\10.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\11.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\12.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\13.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\14.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\15.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\16.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\17.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\18.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\19.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\20.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\21.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\22.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\23.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\24.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\25.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\26.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\27.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\28.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\29.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\30.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\31.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\32.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\33.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\34.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\35.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\36.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\37.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\38.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\39.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\40.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\41.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\42.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\43.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\44.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\45.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\46.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\47.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\48.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\49.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\50.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\51.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\52.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\53.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\6.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\8.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pukeImage\9.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
