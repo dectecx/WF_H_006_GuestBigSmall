@@ -71,9 +71,11 @@
             this.btnDeal.TabIndex = 2;
             this.btnDeal.Text = "發牌";
             this.btnDeal.UseVisualStyleBackColor = true;
+            this.btnDeal.Click += new System.EventHandler(this.btnDeal_Click);
             // 
             // btnbig
             // 
+            this.btnbig.Enabled = false;
             this.btnbig.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnbig.Location = new System.Drawing.Point(57, 322);
             this.btnbig.Name = "btnbig";
@@ -85,6 +87,7 @@
             // 
             // btnsmall
             // 
+            this.btnsmall.Enabled = false;
             this.btnsmall.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnsmall.Location = new System.Drawing.Point(186, 322);
             this.btnsmall.Name = "btnsmall";
@@ -96,6 +99,7 @@
             // 
             // btnblack
             // 
+            this.btnblack.Enabled = false;
             this.btnblack.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnblack.Location = new System.Drawing.Point(57, 397);
             this.btnblack.Name = "btnblack";
@@ -107,6 +111,7 @@
             // 
             // btnred
             // 
+            this.btnred.Enabled = false;
             this.btnred.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnred.Location = new System.Drawing.Point(186, 397);
             this.btnred.Name = "btnred";
@@ -207,6 +212,7 @@
             this.Controls.Add(this.infolabel);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

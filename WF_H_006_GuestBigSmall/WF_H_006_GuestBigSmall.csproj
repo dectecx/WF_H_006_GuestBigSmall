@@ -79,5 +79,61 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="pukeImage\1 %281%29.jpg" />
+    <Content Include="pukeImage\1 %2810%29.jpg" />
+    <Content Include="pukeImage\1 %2811%29.jpg" />
+    <Content Include="pukeImage\1 %2812%29.jpg" />
+    <Content Include="pukeImage\1 %2813%29.jpg" />
+    <Content Include="pukeImage\1 %2814%29.jpg" />
+    <Content Include="pukeImage\1 %2815%29.jpg" />
+    <Content Include="pukeImage\1 %2816%29.jpg" />
+    <Content Include="pukeImage\1 %2817%29.jpg" />
+    <Content Include="pukeImage\1 %2818%29.jpg" />
+    <Content Include="pukeImage\1 %2819%29.jpg" />
+    <Content Include="pukeImage\1 %282%29.jpg" />
+    <Content Include="pukeImage\1 %2820%29.jpg" />
+    <Content Include="pukeImage\1 %2821%29.jpg" />
+    <Content Include="pukeImage\1 %2822%29.jpg" />
+    <Content Include="pukeImage\1 %2823%29.jpg" />
+    <Content Include="pukeImage\1 %2824%29.jpg" />
+    <Content Include="pukeImage\1 %2825%29.jpg" />
+    <Content Include="pukeImage\1 %2826%29.jpg" />
+    <Content Include="pukeImage\1 %2827%29.jpg" />
+    <Content Include="pukeImage\1 %2828%29.jpg" />
+    <Content Include="pukeImage\1 %2829%29.jpg" />
+    <Content Include="pukeImage\1 %283%29.jpg" />
+    <Content Include="pukeImage\1 %2830%29.jpg" />
+    <Content Include="pukeImage\1 %2831%29.jpg" />
+    <Content Include="pukeImage\1 %2832%29.jpg" />
+    <Content Include="pukeImage\1 %2833%29.jpg" />
+    <Content Include="pukeImage\1 %2834%29.jpg" />
+    <Content Include="pukeImage\1 %2835%29.jpg" />
+    <Content Include="pukeImage\1 %2836%29.jpg" />
+    <Content Include="pukeImage\1 %2837%29.jpg" />
+    <Content Include="pukeImage\1 %2838%29.jpg" />
+    <Content Include="pukeImage\1 %2839%29.jpg" />
+    <Content Include="pukeImage\1 %284%29.jpg" />
+    <Content Include="pukeImage\1 %2840%29.jpg" />
+    <Content Include="pukeImage\1 %2841%29.jpg" />
+    <Content Include="pukeImage\1 %2842%29.jpg" />
+    <Content Include="pukeImage\1 %2843%29.jpg" />
+    <Content Include="pukeImage\1 %2844%29.jpg" />
+    <Content Include="pukeImage\1 %2845%29.jpg" />
+    <Content Include="pukeImage\1 %2846%29.jpg" />
+    <Content Include="pukeImage\1 %2847%29.jpg" />
+    <Content Include="pukeImage\1 %2848%29.jpg" />
+    <Content Include="pukeImage\1 %2849%29.jpg" />
+    <Content Include="pukeImage\1 %285%29.jpg" />
+    <Content Include="pukeImage\1 %2850%29.jpg" />
+    <Content Include="pukeImage\1 %2851%29.jpg" />
+    <Content Include="pukeImage\1 %2852%29.jpg" />
+    <Content Include="pukeImage\1 %2853%29.jpg" />
+    <Content Include="pukeImage\1 %2854%29.jpg" />
+    <Content Include="pukeImage\1 %286%29.jpg" />
+    <Content Include="pukeImage\1 %287%29.jpg" />
+    <Content Include="pukeImage\1 %288%29.jpg" />
+    <Content Include="pukeImage\1 %289%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

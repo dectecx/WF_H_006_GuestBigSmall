@@ -36,9 +36,9 @@ namespace Guest_Big_Small
             infolabel.Text = string.Empty;
 
             //撲克牌圖案建置
-            string picPath = GetDirectory("pic");
+            string picPath = GetDirectory("pukeImage");
             for (int i = 0; i <= 52; i++)
-                d[i] = picPath + @"\g" + i.ToString() + ".jpg";
+                d[i] = picPath + "\\" + i.ToString() + ".jpg";
         }
 
         //取得撲克牌檔案路徑
