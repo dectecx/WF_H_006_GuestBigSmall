@@ -55,7 +55,7 @@ namespace Guest_Big_Small
             int i, rnum, temp;
 
             EnableButton(true);
-            pictureBox1.Image = Image.FromFile(@d[52]);//蓋牌
+            pictureBox1.Image = Image.FromFile(d[52]);//蓋牌
 
             //隨機出一張牌
             Random ran = new Random();
@@ -108,7 +108,7 @@ namespace Guest_Big_Small
             {
                 EnableButton(false); //隱藏按鈕
 
-                pictureBox1.Image = Image.FromFile(@d[a[0]]);
+                pictureBox1.Image = Image.FromFile(d[a[0]]);
                 int cardRate = -1;
                 red = true;
                 infolabel.Text = "";

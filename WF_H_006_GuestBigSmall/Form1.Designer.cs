@@ -40,125 +40,159 @@
             this.lbmoney = new System.Windows.Forms.Label();
             this.lbwinlose = new System.Windows.Forms.Label();
             this.tbmoney = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // infolabel
             // 
             this.infolabel.AutoSize = true;
-            this.infolabel.Location = new System.Drawing.Point(56, 29);
+            this.infolabel.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.infolabel.Location = new System.Drawing.Point(458, 356);
             this.infolabel.Name = "infolabel";
-            this.infolabel.Size = new System.Drawing.Size(57, 15);
+            this.infolabel.Size = new System.Drawing.Size(0, 35);
             this.infolabel.TabIndex = 0;
-            this.infolabel.Text = "infolabel";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(119, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(84, 70);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(198, 246);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
             // btnDeal
             // 
-            this.btnDeal.Location = new System.Drawing.Point(277, 366);
+            this.btnDeal.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnDeal.Location = new System.Drawing.Point(57, 472);
             this.btnDeal.Name = "btnDeal";
-            this.btnDeal.Size = new System.Drawing.Size(75, 23);
+            this.btnDeal.Size = new System.Drawing.Size(123, 69);
             this.btnDeal.TabIndex = 2;
-            this.btnDeal.Text = "btnDeal";
+            this.btnDeal.Text = "發牌";
             this.btnDeal.UseVisualStyleBackColor = true;
             // 
             // btnbig
             // 
-            this.btnbig.Location = new System.Drawing.Point(373, 366);
+            this.btnbig.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnbig.Location = new System.Drawing.Point(57, 322);
             this.btnbig.Name = "btnbig";
-            this.btnbig.Size = new System.Drawing.Size(75, 23);
+            this.btnbig.Size = new System.Drawing.Size(123, 69);
             this.btnbig.TabIndex = 3;
-            this.btnbig.Text = "btnbig";
+            this.btnbig.Text = "大";
             this.btnbig.UseVisualStyleBackColor = true;
             this.btnbig.Click += new System.EventHandler(this.btnbig_Click);
             // 
             // btnsmall
             // 
-            this.btnsmall.Location = new System.Drawing.Point(474, 366);
+            this.btnsmall.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnsmall.Location = new System.Drawing.Point(186, 322);
             this.btnsmall.Name = "btnsmall";
-            this.btnsmall.Size = new System.Drawing.Size(75, 23);
+            this.btnsmall.Size = new System.Drawing.Size(123, 69);
             this.btnsmall.TabIndex = 4;
-            this.btnsmall.Text = "btnsmall";
+            this.btnsmall.Text = "小";
             this.btnsmall.UseVisualStyleBackColor = true;
             this.btnsmall.Click += new System.EventHandler(this.btnsmall_Click);
             // 
             // btnblack
             // 
-            this.btnblack.Location = new System.Drawing.Point(571, 366);
+            this.btnblack.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnblack.Location = new System.Drawing.Point(57, 397);
             this.btnblack.Name = "btnblack";
-            this.btnblack.Size = new System.Drawing.Size(75, 23);
+            this.btnblack.Size = new System.Drawing.Size(123, 69);
             this.btnblack.TabIndex = 5;
-            this.btnblack.Text = "btnblack";
+            this.btnblack.Text = "黑";
             this.btnblack.UseVisualStyleBackColor = true;
             this.btnblack.Click += new System.EventHandler(this.btnblack_Click);
             // 
             // btnred
             // 
-            this.btnred.Location = new System.Drawing.Point(652, 366);
+            this.btnred.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnred.Location = new System.Drawing.Point(186, 397);
             this.btnred.Name = "btnred";
-            this.btnred.Size = new System.Drawing.Size(75, 23);
+            this.btnred.Size = new System.Drawing.Size(123, 69);
             this.btnred.TabIndex = 6;
-            this.btnred.Text = "btnred";
+            this.btnred.Text = "紅";
             this.btnred.UseVisualStyleBackColor = true;
             this.btnred.Click += new System.EventHandler(this.btnred_Click);
             // 
             // btnend
             // 
-            this.btnend.Location = new System.Drawing.Point(571, 415);
+            this.btnend.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnend.Location = new System.Drawing.Point(186, 472);
             this.btnend.Name = "btnend";
-            this.btnend.Size = new System.Drawing.Size(75, 23);
+            this.btnend.Size = new System.Drawing.Size(123, 69);
             this.btnend.TabIndex = 7;
-            this.btnend.Text = "btnend";
+            this.btnend.Text = "結束遊戲";
             this.btnend.UseVisualStyleBackColor = true;
             this.btnend.Click += new System.EventHandler(this.btnend_Click);
             // 
             // lbtoptext
             // 
             this.lbtoptext.AutoSize = true;
-            this.lbtoptext.Location = new System.Drawing.Point(323, 29);
+            this.lbtoptext.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lbtoptext.Location = new System.Drawing.Point(52, 9);
             this.lbtoptext.Name = "lbtoptext";
-            this.lbtoptext.Size = new System.Drawing.Size(57, 15);
+            this.lbtoptext.Size = new System.Drawing.Size(466, 29);
             this.lbtoptext.TabIndex = 8;
-            this.lbtoptext.Text = "lbtoptext";
+            this.lbtoptext.Text = "A為大牌，2~7小牌，9以上大牌，8大小通吃";
             // 
             // lbmoney
             // 
             this.lbmoney.AutoSize = true;
-            this.lbmoney.Location = new System.Drawing.Point(506, 28);
+            this.lbmoney.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lbmoney.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.lbmoney.Location = new System.Drawing.Point(484, 155);
             this.lbmoney.Name = "lbmoney";
-            this.lbmoney.Size = new System.Drawing.Size(56, 15);
+            this.lbmoney.Size = new System.Drawing.Size(48, 25);
             this.lbmoney.TabIndex = 9;
-            this.lbmoney.Text = "lbmoney";
+            this.lbmoney.Text = "100";
             // 
             // lbwinlose
             // 
             this.lbwinlose.AutoSize = true;
-            this.lbwinlose.Location = new System.Drawing.Point(505, 70);
+            this.lbwinlose.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lbwinlose.Location = new System.Drawing.Point(458, 391);
             this.lbwinlose.Name = "lbwinlose";
-            this.lbwinlose.Size = new System.Drawing.Size(61, 15);
+            this.lbwinlose.Size = new System.Drawing.Size(0, 35);
             this.lbwinlose.TabIndex = 10;
-            this.lbwinlose.Text = "lbwinlose";
             // 
             // tbmoney
             // 
-            this.tbmoney.Location = new System.Drawing.Point(466, 163);
+            this.tbmoney.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.tbmoney.Location = new System.Drawing.Point(463, 282);
             this.tbmoney.Name = "tbmoney";
-            this.tbmoney.Size = new System.Drawing.Size(100, 25);
+            this.tbmoney.Size = new System.Drawing.Size(100, 34);
             this.tbmoney.TabIndex = 11;
-            this.tbmoney.Text = "tbmoney";
+            this.tbmoney.Text = "10";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.Location = new System.Drawing.Point(446, 92);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(127, 35);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "你的籌碼";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label2.Location = new System.Drawing.Point(446, 212);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(127, 35);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "押注金額";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(719, 546);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.tbmoney);
             this.Controls.Add(this.lbwinlose);
             this.Controls.Add(this.lbmoney);
@@ -193,6 +227,8 @@
         private System.Windows.Forms.Label lbmoney;
         private System.Windows.Forms.Label lbwinlose;
         private System.Windows.Forms.TextBox tbmoney;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
