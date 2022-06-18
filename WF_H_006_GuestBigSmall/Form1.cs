@@ -7,13 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WF_H_006_GuestBigSmall;
 
 namespace Guest_Big_Small
 {
     public partial class Form1 : Form
     {
         string[] d = new string[54];  //紙牌路徑
-        static int[] a = new int[52];        //紙牌編碼
+        static int[] a = new int[52]; //紙牌編碼
 
         int point, flower, bigsmall;
         //判斷大還還是小牌
@@ -27,6 +28,15 @@ namespace Guest_Big_Small
         public Form1()
         {
             InitializeComponent();
+
+            // 初始化，預設登出狀態+寫死幾個排行紀錄
+            SystemInfo.RankRecords = new List<RankRecord>
+            {
+                new RankRecord { RecordTime = DateTime.Now.AddDays(-3), Account = "豪哩嗨", Money = 630 },
+                new RankRecord { RecordTime = DateTime.Now.AddDays(-7), Account = "張東山", Money = 450 },
+                new RankRecord { RecordTime = DateTime.Now.AddDays(-2), Account = "郝勳咖", Money = 70 },
+            };
+            SystemInfo.User = null;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -39,14 +49,6 @@ namespace Guest_Big_Small
             string picPath = "./pukeImage";
             for (int i = 0; i <= 52; i++)
                 d[i] = picPath + "/" + i.ToString() + ".jpg";
-        }
-
-        //取得撲克牌檔案路徑
-        private string GetDirectory(string name)
-        {
-            System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo(Application.StartupPath);
-            string path = (dir.Parent).Parent.FullName;
-            return path + string.Format(@"\{0}\", name);
         }
 
         //按下發牌
@@ -196,6 +198,44 @@ namespace Guest_Big_Small
         private void btnred_Click(object sender, EventArgs e)
         {
             opencard(guessCard.red);
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            // 先判斷是否是登入狀態,如果是就登出,反之就執行登入流程
+            if (SystemInfo.User != null)
+            {
+                // 清除當前登入者資訊
+                SystemInfo.User = null;
+                btnLogin.Text = "登入";
+                return;
+            }
+            else
+            {
+                // 打開登入表單
+                LoginForm loginForm = new LoginForm();
+                loginForm.ShowDialog();
+
+                // 關閉表單後繼續判斷
+                // 若登入者有值,表示登入成功
+                if (SystemInfo.User != null)
+                {
+                    btnLogin.Text = "登出" + SystemInfo.User.Account;
+                }
+                else
+                {
+                    // 清除當前登入者資訊
+                    SystemInfo.User = null;
+                    btnLogin.Text = "登入";
+                }
+            }
+        }
+
+        private void btnRank_Click(object sender, EventArgs e)
+        {
+            // 打開登入表單
+            RankForm rankForm = new RankForm();
+            rankForm.ShowDialog();
         }
 
         private void EnableButton(bool isEnable)
