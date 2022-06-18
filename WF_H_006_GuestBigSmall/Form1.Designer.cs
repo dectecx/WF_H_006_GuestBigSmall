@@ -45,6 +45,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnRank = new System.Windows.Forms.Button();
             this.btnLogin = new System.Windows.Forms.Button();
+            this.btnOver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,7 +62,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(63, 56);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(148, 197);
             this.pictureBox1.TabIndex = 1;
@@ -71,7 +72,7 @@
             // 
             this.btnDeal.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnDeal.Location = new System.Drawing.Point(43, 378);
-            this.btnDeal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDeal.Margin = new System.Windows.Forms.Padding(2);
             this.btnDeal.Name = "btnDeal";
             this.btnDeal.Size = new System.Drawing.Size(92, 55);
             this.btnDeal.TabIndex = 2;
@@ -84,7 +85,7 @@
             this.btnbig.Enabled = false;
             this.btnbig.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnbig.Location = new System.Drawing.Point(43, 258);
-            this.btnbig.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnbig.Margin = new System.Windows.Forms.Padding(2);
             this.btnbig.Name = "btnbig";
             this.btnbig.Size = new System.Drawing.Size(92, 55);
             this.btnbig.TabIndex = 3;
@@ -97,7 +98,7 @@
             this.btnsmall.Enabled = false;
             this.btnsmall.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnsmall.Location = new System.Drawing.Point(140, 258);
-            this.btnsmall.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnsmall.Margin = new System.Windows.Forms.Padding(2);
             this.btnsmall.Name = "btnsmall";
             this.btnsmall.Size = new System.Drawing.Size(92, 55);
             this.btnsmall.TabIndex = 4;
@@ -110,7 +111,7 @@
             this.btnblack.Enabled = false;
             this.btnblack.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnblack.Location = new System.Drawing.Point(43, 318);
-            this.btnblack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnblack.Margin = new System.Windows.Forms.Padding(2);
             this.btnblack.Name = "btnblack";
             this.btnblack.Size = new System.Drawing.Size(92, 55);
             this.btnblack.TabIndex = 5;
@@ -123,7 +124,7 @@
             this.btnred.Enabled = false;
             this.btnred.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnred.Location = new System.Drawing.Point(140, 318);
-            this.btnred.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnred.Margin = new System.Windows.Forms.Padding(2);
             this.btnred.Name = "btnred";
             this.btnred.Size = new System.Drawing.Size(92, 55);
             this.btnred.TabIndex = 6;
@@ -135,7 +136,7 @@
             // 
             this.btnend.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnend.Location = new System.Drawing.Point(140, 378);
-            this.btnend.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnend.Margin = new System.Windows.Forms.Padding(2);
             this.btnend.Name = "btnend";
             this.btnend.Size = new System.Drawing.Size(92, 55);
             this.btnend.TabIndex = 7;
@@ -180,7 +181,7 @@
             // 
             this.tbmoney.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tbmoney.Location = new System.Drawing.Point(347, 226);
-            this.tbmoney.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbmoney.Margin = new System.Windows.Forms.Padding(2);
             this.tbmoney.Name = "tbmoney";
             this.tbmoney.Size = new System.Drawing.Size(76, 29);
             this.tbmoney.TabIndex = 11;
@@ -232,11 +233,25 @@
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
+            // btnOver
+            // 
+            this.btnOver.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnOver.Location = new System.Drawing.Point(436, 437);
+            this.btnOver.Margin = new System.Windows.Forms.Padding(2);
+            this.btnOver.Name = "btnOver";
+            this.btnOver.Size = new System.Drawing.Size(92, 55);
+            this.btnOver.TabIndex = 16;
+            this.btnOver.Text = "見好就收";
+            this.btnOver.UseVisualStyleBackColor = true;
+            this.btnOver.Visible = false;
+            this.btnOver.Click += new System.EventHandler(this.btnOver_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(539, 515);
+            this.Controls.Add(this.btnOver);
             this.Controls.Add(this.btnRank);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.label2);
@@ -254,7 +269,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.infolabel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "押大小或是牌色";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -282,6 +297,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnRank;
         private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.Button btnOver;
     }
 }
 

@@ -37,6 +37,8 @@ namespace Guest_Big_Small
                 new RankRecord { RecordTime = DateTime.Now.AddDays(-2), Account = "郝勳咖", Money = 70 },
             };
             SystemInfo.User = null;
+            // 預設隱藏見好就收按鈕,至少玩過一場才顯示
+            btnOver.Visible = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -166,12 +168,16 @@ namespace Guest_Big_Small
                 playermoney += betMoney * cardRate;
                 lbmoney.Text = playermoney.ToString();
 
+                // 玩過至少一次就顯示見好就收按鈕
+                btnOver.Visible = true;
+
                 //籌碼輸光
                 if (playermoney <= 0)
                 {
                     btnDeal.Text = "重新開始";
                     lbtoptext.Text = "你破產了，請按重新開始";
                     gameover = true;
+                    btnOver.Visible = false;
                 }
             }
             else
@@ -236,6 +242,35 @@ namespace Guest_Big_Small
             // 打開登入表單
             RankForm rankForm = new RankForm();
             rankForm.ShowDialog();
+        }
+
+        /// <summary>
+        /// 見好就收按鈕
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnOver_Click(object sender, EventArgs e)
+        {
+            btnDeal.Text = "重新開始";
+            lbtoptext.Text = "金盆洗手，遊戲結束";
+            gameover = true;
+            btnOver.Visible = false;
+
+            RankRecord record = new RankRecord();
+            record.RecordTime = DateTime.Now;
+            // 判斷是否有登入,沒登入就是訪客
+            if (SystemInfo.User == null)
+            {
+                record.Account = "訪客";
+            }
+            else
+            {
+                record.Account = SystemInfo.User.Account;
+            }
+            record.Money = Convert.ToInt32(lbmoney.Text);
+
+            // 寫入排行榜紀錄
+            SystemInfo.RankRecords.Add(record);
         }
 
         private void EnableButton(bool isEnable)

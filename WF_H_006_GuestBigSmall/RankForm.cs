@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace Guest_Big_Small
@@ -16,8 +17,8 @@ namespace Guest_Big_Small
 
         public void RefreshRecord()
         {
-            // 取得當前系統的排行榜紀錄
-            List<RankRecord> records = SystemInfo.RankRecords;
+            // 取得當前系統的排行榜紀錄,並且依據籌碼由大到小排序
+            List<RankRecord> records = SystemInfo.RankRecords.OrderByDescending(x => x.Money).ToList();
 
             // 先逐筆加入暫存的List內
             List<ListViewItem> list = new List<ListViewItem>();
